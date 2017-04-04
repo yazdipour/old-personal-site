@@ -23,8 +23,8 @@
 		?>
 	</div>
 	<!-- Add fancyBox main JS and CSS files -->
-	<script type="text/javascript" src="../js/fancy/jquery.fancybox.js?v=2.1.5"></script>
-	<link rel="stylesheet" type="text/css" href="../js/fancy/jquery.fancybox.css?v=2.1.5" media="screen"/>
+	<!-- <script type="text/javascript" src="../js/fancy/jquery.fancybox.js?v=2.1.5"></script> -->
+	<!-- <link rel="stylesheet" type="text/css" href="../js/fancy/jquery.fancybox.css?v=2.1.5" media="screen"/> -->
 
 	<script type="text/javascript" src="js.js"></script>
 </body>
