@@ -1,0 +1,119 @@
+.button-primary{
+ background: #E84C3D !important;
+ border:none !important;
+}
+#avatar{
+  border: #fff solid 2px;
+  border-radius: 300px;
+  height: 200px;width: 200px;
+}
+.zbtn a{
+  width: 52px;
+  height: 52px;
+}
+.zcenter {
+ float: none !important;
+ margin: 0 auto !important;
+}
+.ztxt-center{
+ text-align: center !important;
+}
+div>a{
+  text-decoration: none !important; 
+}
+#spiders {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: block;
+}
+.zcenter>h6,.zcenter>h5,.zcenter>h4{
+  color: white !important;
+}
+.sprite {
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+}
+.sprite-blog {
+  width: 52px;
+  height: 52px;
+  background-position: -2px -2px;
+}
+
+.sprite-github {
+  width: 52px;
+  height: 52px;
+  background-position: -58px -2px;
+}
+
+.sprite-kick {
+  width: 52px;
+  height: 52px;
+  background-position: -114px -2px;
+}
+
+.sprite-lkin {
+  width: 52px;
+  height: 52px;
+  background-position: -170px -2px;
+}
+
+.sprite-mail {
+  width: 52px;
+  height: 52px;
+  background-position: -226px -2px;
+}
+
+.sprite-proj {
+  width: 52px;
+  height: 52px;
+  background-position: -282px -2px;
+}
+
+.sprite-resume {
+  width: 52px;
+  height: 52px;
+  background-position: -338px -2px;
+}
+
+.sprite-tw {
+  width: 52px;
+  height: 52px;
+  background-position: -394px -2px;
+}
+
+@media (max-width:720px){
+  .hidden-xs{display:none!important;}
+}
+.newBtn{
+  background-color:#33C3F0 !important;
+  border-color:#33C3F0 !important;
+}
+/*-----add after removing skeleton----*/
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+margin-bottom:6px;
+}
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+

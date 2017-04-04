@@ -13,7 +13,7 @@ $arr2=[["Instagram Pro for Edge",'extension',7]];
 $str = file_get_contents('./voters.json');
 $json = json_decode($str, true);
 
-$arr3=[["Dot.net Core Blog for Win10","Win10 Application to browse in Jadi Blog and podcasts"],
+$arr3=[["Jadi.net for Win10","Win10 Application to browse in Jadi Blog and podcasts"],
 ["DotNetTips.info for Win10","Win10 Application for .NetTips (full feature please!)"]];
 
 ?>

@@ -14,4 +14,5 @@ if(!isset($json[$name])||!in_array($ip,$json[$name])){
 	$fp = fopen('./voters.json', 'w');
 	fwrite($fp, json_encode($json));
 	fclose($fp);
+	echo 11;
 }

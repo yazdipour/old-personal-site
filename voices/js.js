@@ -4,13 +4,12 @@ $('.box').click(function(event) {
 	var arg=$(this).attr('attr-id');
 	$.fancybox.open({href : 'pages.php?p='+arg,type : 'iframe',padding : 5});
 });
-$('.box>a').click(function(event) {
-	event.stopPropagation();
-});
 $('.donatebtn').click(function(event) {
-	event.stopPropagation();
-	var arg=$(this).attr('attr-id');
-	$.fancybox.open({href : 'donate.php?p='+arg,type : 'iframe',padding : 5});
+	//event.stopPropagation();
+	//var arg=$(this).attr('attr-id');
+	//$.fancybox.open({href : 'donate.php?p='+arg,type : 'iframe',padding : 5});
+  var win = window.open('./donate.php', '_blank');
+  win.focus();
 });
 
 $('.addbtn').click(function(event) {
