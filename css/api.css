@@ -511,10 +511,10 @@ h1 span{
 
 
 
-/* Portfolio */
+/* blog */
 
 
-.portfolio{
+.blog{
   position:relative;
   width:100%;
   background:#f3f3f3;
@@ -522,14 +522,14 @@ h1 span{
 
 }
 
-.portfolio .portfolio-margin{
+.blog .blog-margin{
   position:relative;
   width:900px;
   overflow:hidden;
   margin:0 auto;
 }
 
-.portfolio .portfolio-margin .read-more{
+.blog .blog-margin .read-more{
   width:183px;
   height:47px;
   position:relative;
@@ -550,13 +550,13 @@ h1 span{
 	letter-spacing:1px;
 }
 
-.portfolio .portfolio-margin .read-more:hover{
+.blog .blog-margin .read-more:hover{
   background:#ada074;
   color:white;
   border:1px solid #ada074;
 }
 
-.portfolio .portfolio-margin h1{
+.blog .blog-margin h1{
   font-size:34px;
   color:black;
   text-align:center;
@@ -567,7 +567,7 @@ h1 span{
   line-height:1.2;
 }
 
-.portfolio .portfolio-margin hr{
+.blog .blog-margin hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -579,7 +579,7 @@ h1 span{
 
 
 
-/* Portfolio grid */
+/* blog grid */
 
 .grid{
   margin-top:70px;
