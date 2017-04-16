@@ -710,6 +710,8 @@ h1 span{
 
 .partners .logo img{
   opacity:0.5;
+  width:3.5em;
+  margin: 2em;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;

@@ -61,8 +61,9 @@ h1 {
 }
 
 .partners .logo img {
-  width:80px;
+  width:2em;
   padding-bottom:20px;
+  margin: 1em;
 }
 
 .contact, .contact .content, .contact .content .form{
