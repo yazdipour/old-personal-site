@@ -49,7 +49,8 @@ h1 {
  }
 
 .blog .blog-margin{
-  width:300px;
+  /*width:300px;*/
+  display: none;
 }
 .partners {
   height: 100px;
@@ -181,7 +182,7 @@ h1 {
  }
 
 .blog .blog-margin{
-  width:300px;
+  width:70%;
 }
 /*by me*/
 .partners{

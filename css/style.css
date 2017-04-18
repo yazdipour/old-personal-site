@@ -504,23 +504,17 @@ h1 span{
 .about-us .column-three .circle-three:hover{ 
   border:2px solid #ada074;
 }
-
-
-
 /* blog */
-
-
 .blog{
   position:relative;
   width:100%;
   background:#f3f3f3;
   z-index:10;
-
 }
 
 .blog .blog-margin{
   position:relative;
-  width:900px;
+  width:90%;
   overflow:hidden;
   margin:0 auto;
 }
