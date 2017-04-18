@@ -104,7 +104,7 @@
       <div class="blog-margin">
         <h1>BLOG</h1>
         <hr/>
-        <?php include 'blog/index.php'; ?>
+        <?php include 'http://shahriar.in/blog/'; ?>
       </div>
     </section>
     <div class="clear"></div>
