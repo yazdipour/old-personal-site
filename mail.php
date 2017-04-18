@@ -3,12 +3,11 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$formcontent="Contact form\n\nFrom: $name \nMessage: $message";
-$recipient = "your-email@your-domain";
+$formcontent="Contact form\n\nFrom:$email \t $name \nMessage: $message";
+$recipient = "info@shahriar.in";
 $subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+$headers = "Content-Type: text/html; charset=UTF-8";
+mail($recipient, $subject, $formcontent, $headers) or die("Error!");
 echo "Thank You! E-mail send.";
 
 ?>
