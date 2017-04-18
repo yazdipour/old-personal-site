@@ -395,7 +395,7 @@ h1 span{
   font-size:26px;
   color:black;
   line-height:1.2;
-  letter-spacing:6px;
+  /*letter-spacing:6px;*/
   width:100%;
   position:relative;
   font-weight:400;
@@ -426,7 +426,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/responsive.png) white no-repeat center center;
+  background: url(../img/icons/Monitor_52px.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -457,7 +457,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/minimalist.png) white no-repeat center center;
+  background: url(../img/icons/Smartphone_52px.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -488,7 +488,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/free.png) white no-repeat center center;
+  background: url(../img/icons/Categorize_52px.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -666,7 +666,7 @@ h1 span{
   position:relative;
   width:100%;
   z-index:10;
-  height:400px;
+  height:200px;
   background:url('../img/background/partners.jpg') 0px 0px fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -677,7 +677,7 @@ h1 span{
 .partners .opacity{
   position:absolute;
   width:100%;
-  height:400px;
+  height:200px;
   background:rgba(79,79,79,0.6);
 }
 

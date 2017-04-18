@@ -51,9 +51,15 @@ h1 {
 .blog .blog-margin{
   width:300px;
 }
-
+.partners {
+  height: 100px;
+}
+.partners .opacity{
+  height: 100px;
+}
 .partners .content{
   width:300px;
+  height: 150px;
 }
 
 .partners .logo {
@@ -131,6 +137,8 @@ textarea{
 
 .partners .logo img {
   padding-bottom:20px;
+  margin: 1em;
+  width: 35px;
 }
 
 .start-page .content {
@@ -175,18 +183,20 @@ h1 {
 .blog .blog-margin{
   width:300px;
 }
-
+/*by me*/
+.partners{
+  height: 120px;
+}
+.partners .opacity{
+  height: 120px;
+}
 .partners .content{
   width:400px;
+  height: 160px;
 }
 
 .partners .logo {
   width:400px;
-}
-
-.partners .logo img {
-  width:80px;
-  padding-bottom:20px;
 }
 
 .contact, .contact .content, .contact .content .form{
