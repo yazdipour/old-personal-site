@@ -53,7 +53,7 @@
         <li href="#home">HOME</li>
       </a>
       <a href="#about-us">
-        <li href="#about-us">ABOUT US</li>
+        <li href="#about-us">WHAT I DO</li>
       </a>
       <a href="#blog">
         <li href="#blog">BLOG</li>
@@ -68,7 +68,7 @@
         <div class="logo">Shahriar</div>
         <ul id="menu">
           <li><a href="#home">HOME</a></li>
-          <li><a href="#about-us">ABOUT US</a></li>
+          <li><a href="#about-us">WHAT I DO</a></li>
           <li><a href="#blog">BLOG</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
@@ -104,7 +104,7 @@
       <div class="blog-margin">
         <h1>BLOG</h1>
         <hr/>
-        <?php include 'http://shahriar.in/blog/'; ?>
+        <?php include '/blog/index.php'; ?>
       </div>
     </section>
     <div class="clear"></div>
