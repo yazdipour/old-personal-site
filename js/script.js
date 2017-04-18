@@ -61,19 +61,19 @@ else
 {
 
   // FadeTo elements
-  if ( $(window).width() > 1023) {  
+  // if ( $(window).width() > 1023) {  
 
-    tiles = $("h2, h3, .column-one, .column-two, .column-three, .grid li, .contact .content .form, .contact .content .contact-text ").fadeTo(0, 0);
+  //   tiles = $("h2, h3, .column-one, .column-two, .column-three, .grid li, .contact .content .form, .contact .content .contact-text ").fadeTo(0, 0);
 
-    $(window).scroll(function(d,h) {
-      tiles.each(function(i) {
-          a = $(this).offset().top + $(this).height();
-          b = $(window).scrollTop() + $(window).height();
-          if (a < b) $(this).fadeTo(1000,1);
-      });
-    });
+  //   $(window).scroll(function(d,h) {
+  //     tiles.each(function(i) {
+  //         a = $(this).offset().top + $(this).height();
+  //         b = $(window).scrollTop() + $(window).height();
+  //         if (a < b) $(this).fadeTo(1000,1);
+  //     });
+  //   });
 
-  }
+  // }
 
 }
 
