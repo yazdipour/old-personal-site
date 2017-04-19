@@ -1,7 +1,7 @@
 /* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
-.menu{
+.menu,.aGit{
   display:none;
 }
 
@@ -40,7 +40,7 @@ h1 {
 
 .about-us .column-one, .about-us .column-two{
   width:300px;
-  margin-bottom:20px;
+  margin-bottom:0;
 }
 
  .about-us .content .column-three{
@@ -48,10 +48,10 @@ h1 {
   margin-bottom:70px;
  }
 
-.blog .blog-margin{
+/*.blog .blog-margin{
   /*width:300px;*/
-  display: none;
-}
+  /*display: none;*/
+/*}*/
 .partners {
   height: 100px;
 }
@@ -124,7 +124,7 @@ textarea{
 /* iPad (portrait) */
 @media (min-width: 580px) and (max-width: 767px) {
 
-.menu{
+.menu,.aGit{
   display:none;
 }
 
