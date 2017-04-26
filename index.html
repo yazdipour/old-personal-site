@@ -122,16 +122,6 @@
         <iframe width="100%" src="./blog/index.php" scrolling="no" id="iframe" onLoad="calcHeight();" height="1px" frameborder="0"></iframe>
       </div>
     </section>
-
-    <!--Footer-->
-    <!--<section class="footer">
-      <div class="logo"><img src="img/logo-footer.png"></div>
-      <div class="menu-footer">
-        <a href="#home">Home</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </section>-->
   </div>
 
   <!-- Scripts -->
@@ -141,35 +131,19 @@
   <script src="js/jquery.sticky.js"></script>
   <!--<script src="js/masonry.pkgd.min.js"></script>-->
   <!--<script src="js/imagesloaded.pkgd.min.js"></script>-->
-  <!--<script>
-    $(function () {
-      var $container = $('.grid');
-      $container.imagesLoaded(function () {
-        $container.masonry({
-          itemSelector: 'li'
-        });
-      });
-    });
-  </script>-->
   <script type="text/javascript">
     function calcHeight() {
       //find the height of the internal page
       var the_height =
         document.getElementById('iframe').contentWindow.
           document.body.scrollHeight;
-
       //change the height of the iframe
       document.getElementById('iframe').height =
         the_height;
-    }
-    $('#iframe').load(function () {
-      $('#iframe').contents().find("head")
-        .append($("<style type='text/css'>  .site-header{display:none;}  </style>"));
-    });
+    } 
 
   </script>
-  <script src="js/jquery.parallax.js"></script>
-  <script src="js/script.js"></script>
+  <script async src="js/jquery.parallax.js"></script>
+  <script async src="js/script.js"></script>
 </body>
-
 </html>
