@@ -78,10 +78,10 @@ $(".icon").click(function () {
 });
 
 
-$('#iframe').load(function () {
-  $('#iframe').contents().find("head")
-    .append($("<style type='text/css'>  .site-header{display:none;}  </style>"));
-});
+// $('#iframe').load(function () {
+//   $('#iframe').contents().find("head")
+//     .append($("<style type='text/css'>  .site-header{display:none;}  </style>"));
+// });
 $(window).load(function () {
 
   $(".preloader").delay(1000).fadeOut("slow");
@@ -95,6 +95,6 @@ $(window).load(function () {
   if ($('.parallax-background-partners').length) {
     $(".parallax-background-partners").parallax();
   }
-  loadIframe('./blog/index.php');
+  // loadIframe('./blog/index.php');
 
 });
