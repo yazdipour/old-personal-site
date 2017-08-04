@@ -1,5 +1,5 @@
 // niceScroll
-$("html").niceScroll();
+// $("html").niceScroll();
 // Stick menu
 $(".menu").sticky({
   topSpacing: 0
