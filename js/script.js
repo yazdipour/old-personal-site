@@ -1,9 +1,9 @@
 // niceScroll
-// $("html").niceScroll();
+$("html").niceScroll();
 // Stick menu
-$(".menu").sticky({
-  topSpacing: 0
-});
+// $(".menu").sticky({
+//   topSpacing: 0
+// });
 // Menu Scroll to content and Active menu
 var lastId,
   topMenu = $("#menu"),
