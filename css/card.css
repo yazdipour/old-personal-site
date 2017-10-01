@@ -45,7 +45,7 @@ p {
 .profile-card {
 	background: #FFB300;
 	width: 56px;
-	height: 56px;
+	height: 74px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -134,7 +134,7 @@ p {
     animation: moveIn 1s 3.1s ease forwards;
 }
 .profile-social-links {
-    width: 300px;        
+    width: 340px;        
     display: inline-block;
     float: right;
     margin: 0px;
@@ -157,6 +157,7 @@ p {
     text-align: center;
 }
 .profile-social-links li a {
+    padding-bottom: 2px !important;
     display: inline-block;
     width: 24px;
     height: 24px;
