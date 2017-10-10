@@ -134,7 +134,7 @@ p {
     animation: moveIn 1s 3.1s ease forwards;
 }
 .profile-social-links {
-    width: 340px;        
+    width: 360px;        
     display: inline-block;
     float: right;
     margin: 0px;
