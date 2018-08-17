@@ -245,6 +245,7 @@ p {
   .profile-social-links {
     position: fixed !important;
     width: 100% !important;
+    height: 58px !important;
     display: block;
     float: none;
     bottom: -38px !important;
