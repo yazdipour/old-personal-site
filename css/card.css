@@ -247,8 +247,8 @@ p {
     width: 100% !important;
     display: block;
     float: none;
-    bottom: 0 !important;
-    top: auto !important;
+    bottom: -38px !important;
+    top: unset !important;
   }
   .profile-social-links li{
     width: 20% !important;
