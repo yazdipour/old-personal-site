@@ -1,9 +1,8 @@
-body {
-  background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23222222' points='800%2C100 0%2C200 0%2C800 1600%2C800 1600%2C200'/%3E%3Cpolygon fill='%23444444' points='800%2C200 0%2C400 0%2C800 1600%2C800 1600%2C400'/%3E%3Cpolygon fill='%23666666' points='800%2C300 0%2C600 0%2C800 1600%2C800 1600%2C600'/%3E%3Cpolygon fill='%23888888' points='1600%2C800 800%2C400 0%2C800'/%3E%3Cpolygon fill='%23aaaaaa' points='1280%2C800 800%2C500 320%2C800'/%3E%3Cpolygon fill='%23cccccc' points='533.3%2C800 1066.7%2C800 800%2C600'/%3E%3Cpolygon fill='%23EEE' points='684.1%2C800 914.3%2C800 800%2C700'/%3E%3C/g%3E%3C/svg%3E");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+*{
+  font-family: "work sans";
+}
+html {
+  height: 100%;
 }
 .profile-social-links {
   width: 400px !important;
@@ -25,9 +24,6 @@ body {
   text-align: center;
   font-size: smaller;
 }
-html {
-  height: 100%;
-}
 .hide-mobile {
   display: block;
 }
@@ -35,6 +31,11 @@ header>span{
   font-size: smaller;
 }
 body {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23222222' points='800%2C100 0%2C200 0%2C800 1600%2C800 1600%2C200'/%3E%3Cpolygon fill='%23444444' points='800%2C200 0%2C400 0%2C800 1600%2C800 1600%2C400'/%3E%3Cpolygon fill='%23666666' points='800%2C300 0%2C600 0%2C800 1600%2C800 1600%2C600'/%3E%3Cpolygon fill='%23888888' points='1600%2C800 800%2C400 0%2C800'/%3E%3Cpolygon fill='%23aaaaaa' points='1280%2C800 800%2C500 320%2C800'/%3E%3Cpolygon fill='%23cccccc' points='533.3%2C800 1066.7%2C800 800%2C600'/%3E%3Cpolygon fill='%23EEE' points='684.1%2C800 914.3%2C800 800%2C700'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   /* background: #bcdee7 url("../img/background/start-page.jpg") no-repeat center center fixed; */
   /* background-size: 120% auto; */
   position: fixed;
@@ -109,7 +110,7 @@ p {
     materia_landscape 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
 }
 .profile-card header {
-  width: 179px;
+  width: 170px;
   height: 280px;
   padding: 40px 15px;
   display: inline-block;
@@ -130,7 +131,7 @@ p {
   display: inline-block;
   text-align: center;
   position: relative;
-  margin: 20px;
+  margin: 15px;
 }
 .profile-card header a > img {
   width: 120px;
@@ -147,7 +148,7 @@ p {
   box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
 }
 .profile-card .profile-bio {
-  width: 43%;
+  width: 47%;
   height: 180px;
   display: inline-block;
   padding: 40px 10px;
@@ -273,7 +274,7 @@ p {
   .profile-card header {
     width: auto;
     height: auto;
-    padding: 30px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
     display: block;
     float: none;
     border-right: none;
